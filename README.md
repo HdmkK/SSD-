@@ -8,7 +8,7 @@
 
 ## 구조도
 <p align="center">
-  <img src="./과제7_SSD프로젝트/images/구조도.png" alt="구조도 이미지" width="500">
+  <img src="./SSD프로젝트/images/구조도.png" alt="구조도 이미지" width="500">
 </p>
 
 
@@ -17,7 +17,7 @@
 nand.txt 접근 시, mmap으로 파일을 특정 가상주소공간에 매핑하여 nand에 read/write하는 것을 가상으로 구현
 
 <p align="center">
-  <img src="./과제7_SSD프로젝트/images/mmap.png" alt="mmap 이미지" width="500">
+  <img src="./SSD프로젝트/images/mmap.png" alt="mmap 이미지" width="500">
 </p>
 
 장점 : 
@@ -53,7 +53,7 @@ mmap은 가상주소일부분과 물리메모리의 페이지를 매핑한다. �
   - `msync()`를 호출하여 파일에 즉시 반영
 
 <p align="center">
-  <img src="./과제7_SSD프로젝트/images/ssd 캡처.png" alt="write 이미지" width="500">
+  <img src="./SSD프로젝트/images/ssd 캡처.png" alt="write 이미지" width="500">
 </p>
 
 ---
@@ -68,7 +68,7 @@ mmap은 가상주소일부분과 물리메모리의 페이지를 매핑한다. �
   ```
 
 <p align="center">
-  <img src="./과제7_SSD프로젝트/images/ssd 캡처.png" alt="read 이미지" width="500">
+  <img src="./SSD프로젝트/images/ssd 캡처.png" alt="read 이미지" width="500">
 </p>
 ---
 
@@ -90,7 +90,7 @@ mmap은 가상주소일부분과 물리메모리의 페이지를 매핑한다. �
 - **예시:** `write 5 0xAABBCCDD`  
 
 <p align="center">
-  <img src="./과제7_SSD프로젝트/images/testShell_readWrite.png" alt="write 이미지" width="500">
+  <img src="./SSD프로젝트/images/testShell_readWrite.png" alt="write 이미지" width="500">
 </p>
 ---
 
@@ -100,7 +100,7 @@ mmap은 가상주소일부분과 물리메모리의 페이지를 매핑한다. �
 
 
 <p align="center">
-  <img src="./과제7_SSD프로젝트/images/testShell_readWrite.png" alt="read 이미지" width="500">
+  <img src="./SSD프로젝트/images/testShell_readWrite.png" alt="read 이미지" width="500">
 </p>
 ---
 
@@ -110,7 +110,7 @@ mmap은 가상주소일부분과 물리메모리의 페이지를 매핑한다. �
 
 
 <p align="center">
-  <img src="./과제7_SSD프로젝트/images/testShell_fullwrite.png" alt="fullwrite 이미지" width="500">
+  <img src="./SSD프로젝트/images/testShell_fullwrite.png" alt="fullwrite 이미지" width="500">
 </p>
 ---
 
@@ -120,7 +120,7 @@ mmap은 가상주소일부분과 물리메모리의 페이지를 매핑한다. �
 
 
 <p align="center">
-  <img src="./과제7_SSD프로젝트/images/testShell_fullread.png" alt="fullread 이미지" width="500">
+  <img src="./SSD프로젝트/images/testShell_fullread.png" alt="fullread 이미지" width="500">
 </p>
 ---
 
@@ -130,7 +130,7 @@ mmap은 가상주소일부분과 물리메모리의 페이지를 매핑한다. �
 - **사용법:** `testapp1`  
 
 <p align="center">
-  <img src="./과제7_SSD프로젝트/images/testShell_testapp1.png" alt="testapp1 이미지" width="500">
+  <img src="./SSD프로젝트/images/testShell_testapp1.png" alt="testapp1 이미지" width="500">
 </p>
 ---
 
@@ -140,7 +140,7 @@ mmap은 가상주소일부분과 물리메모리의 페이지를 매핑한다. �
 - **사용법:** `testapp2`  
 
 <p align="center">
-  <img src="./과제7_SSD프로젝트/images/testShell_testapp2.png" alt="testapp2 이미지" width="500">
+  <img src="./SSD프로젝트/images/testShell_testapp2.png" alt="testapp2 이미지" width="500">
 </p>
 ---
 
@@ -149,7 +149,7 @@ mmap은 가상주소일부분과 물리메모리의 페이지를 매핑한다. �
 - **사용법:** `help`  
 
 <p align="center">
-  <img src="./과제7_SSD프로젝트/images/testShell_help.png" alt="help 이미지" width="500">
+  <img src="./SSD프로젝트/images/testShell_help.png" alt="help 이미지" width="500">
 </p>
 ---
 
@@ -159,7 +159,7 @@ mmap은 가상주소일부분과 물리메모리의 페이지를 매핑한다. �
 
 
 <p align="center">
-  <img src="./과제7_SSD프로젝트/images/testShell_exit.png" alt="exit 이미지" width="500">
+  <img src="./SSD프로젝트/images/testShell_exit.png" alt="exit 이미지" width="500">
 </p>
 ---
 
